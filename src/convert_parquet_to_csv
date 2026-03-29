@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Load the Parquet file
+df = pd.read_parquet('C:/Users/sriji/aiml_proj/data/color_pedia.parquet')
+
+# Save as CSV
+df.to_csv('color_pedia.csv', index=False)
+
+print("Conversion complete! CSV saved as 'color_pedia.csv'")
