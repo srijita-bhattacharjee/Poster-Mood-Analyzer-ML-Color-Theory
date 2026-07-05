@@ -28,5 +28,3 @@ This project predicts the emotional tone of posters by extracting color-based fe
 2. Extract color features (RGB + HSV)  
 3. Pass features into trained model  
 4. Output predicted mood with confidence score  
-
-## 📁 Project Structure
